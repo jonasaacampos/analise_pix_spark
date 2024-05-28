@@ -79,19 +79,19 @@ O conjunto de dados inclui as seguintes informações para cada transação:
 
 ### Tarefas ✅
 
-- [ ] Normalização dos dados
-  - [ ] O dataset será em  `*.json`. Analisar a estrutura do arquivo
-  - [ ] Faça sua transformação para formato colunar
-- [ ] Análise Exploratória de Dados: Use o PySpark para analisar padrões de uso do PIX
-  - [ ] chaves pix mais usadas;
-  - [ ] os valores de transação mais comuns;
-  - [ ] distribuição dos valores de transação
-    - [ ] hora
-    - [ ] dia
-  - [ ] quais bancos receberam mais transferências por dia;
-  - [ ] para qual tipo de pessoa (PF ou PJ) foram realizadas mais transações
-- [ ] Engenharia de Recursos: 
-  - [ ] Apresentar novas características que podem ser úteis para a detecção de fraudes, tais como o número de transações feitas pelo mesmo remetente em um período de tempo específico.
-- [ ] Modelagem: Use o PySpark MLlib para treinar e detectar possíveis transações que contenham fraude.
+- [x] Normalização dos dados
+  - [x] O dataset será em  `*.json`. Analisar a estrutura do arquivo
+  - [x] Faça sua transformação para formato colunar
+- [x] Análise Exploratória de Dados: Use o PySpark para analisar padrões de uso do PIX
+  - [x] chaves pix mais usadas;
+  - [x] os valores de transação mais comuns;
+  - [x] distribuição dos valores de transação
+    - [x] hora
+    - [x] dia
+  - [x] quais bancos receberam mais transferências por dia;
+  - [x] para qual tipo de pessoa (PF ou PJ) foram realizadas mais transações
+- [x] Engenharia de Recursos: 
+  - [x] Apresentar novas características que podem ser úteis para a detecção de fraudes, tais como o número de transações feitas pelo mesmo remetente em um período de tempo específico.
+- [x] Modelagem: Use o PySpark MLlib para treinar e detectar possíveis transações que contenham fraude.
 
 
